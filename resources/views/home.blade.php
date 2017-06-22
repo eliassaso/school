@@ -6,21 +6,41 @@
 
         @if (!Auth::guest() && Auth::user()->roll == 'estudiante')
 
-            <div class="carousel" style="border-bottom: 2px solid #c7c7c7; margin-top:50px; background-color:white;">
+            <!--<div class="carousel carousel-slider" style="border-bottom: 2px solid #c7c7c7; margin-top:50px; background-color:white;">
+                <h2 style="font-family: Roboto, sans-serif;
+                  font-size: 2.2em;
+                  margin-left: 40px;
+                  /*font-style: italic;*/
+                  font-weight: 200;
+                  line-height: 1.5em;
+                  letter-spacing: 0em;
+                  color: #26a69a;
+                  background-color: #fff;">Seleccione el nivel:</h2>-->
 
-                <a style="text-align: center;" class="carousel-item" href="{{ url('/front/1') }}"><h1>1</h1><!--<img style="width: 200px;height: 200px;" src="img/uno">--></a>
-                <a style="text-align: center;" class="carousel-item" href="{{ url('/front/2') }}"><h1>2</h1><!--<img style="width: 200px;height: 200px;" src="img/dos">--></a>
-                <a style="text-align: center;" class="carousel-item" href="{{ url('/front/3') }}"><h1>3</h1><!--<img style="width: 200px;height: 200px;" src="img/tres">--></a>
-                <a style="text-align: center;" class="carousel-item" href="{{ url('/front/4') }}"><h1>4</h1><!--<img style="width: 200px;height: 200px;" src="img/cuatro">--></a>
-                <a style="text-align: center;" class="carousel-item" href="{{ url('/front/5') }}"><h1>5</h1><!--<img style="width: 200px;height: 200px;" src="img/cinco">--></a>
-                <a style="text-align: center;" class="carousel-item" href="{{ url('/front/6') }}"><h1>6</h1><!--<img style="width: 200px;height: 200px;" src="img/seis">--></a>
+<div class="" style="border-bottom: 2px solid #c7c7c7; margin-top:50px; background-color:white;">
+    <h2 style="font-family: Roboto, sans-serif;
+      font-size: 2.2em;
+      margin-left: 40px;
+      /*font-style: italic;*/
+      font-weight: 200;
+      line-height: 1.5em;
+      letter-spacing: 0em;
+      color: #26a69a;
+      background-color: #fff;">Seleccione el nivel:</h2>
+
+
                 <a style="text-align: center;" class="carousel-item" href="{{ url('/front/7') }}"><h1>7</h1><!--<img style="width: 200px;height: 200px;" src="img/siete">--></a>
                 <a style="text-align: center;" class="carousel-item" href="{{ url('/front/8') }}"><h1>8</h1><!--<img style="width: 200px;height: 200px;" src="img/ocho">--></a>
                 <a style="text-align: center;" class="carousel-item" href="{{ url('/front/9') }}"><h1>9</h1><!--<img style="width: 200px;height: 200px;" src="img/nueve">--></a>
                 <a style="text-align: center;" class="carousel-item" href="{{ url('/front/10') }}"><h1>10</h1><!--<img style="width: 200px;height: 200px;" src="img/diez">--></a>
                 <a style="text-align: center;" class="carousel-item" href="{{ url('/front/11') }}"><h1>11</h1><!--<img style="width: 200px;height: 200px;" src="img/once">--></a>
-
-
+  </div>
+                <!--<div class="carousel carousel-slider">
+                 <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+                 <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+                 <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+                 <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
+               </div>-->
 
 
 
@@ -35,7 +55,7 @@
                 <a style="text-align: center;" class="carousel-item" href="#ten!"><img style="width: 200px;height: 200px;" src="img/diez"> <button class="waves-effect waves-light btn alin-center" id='10' onclick="getTemas(id)">Décimo</button></a></a>
                 <a style="text-align: center;" class="carousel-item" href="#eleven!"><img style="width: 200px;height: 200px;" src="img/once"> <button class="waves-effect waves-light btn alin-center" id='11' onclick="getTemas(id)">Undécimo</button></a></a>-->
 
-            </div>
+            <!--</div>-->
 
 
             <!--<div class="login-body">

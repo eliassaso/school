@@ -12,7 +12,6 @@
 	{!! Html::style('https://fonts.googleapis.com/icon?family=Material+Icons') !!}
 
 </head>
-
 <body>
 <!--nav-->
 <nav class="navbar navbar-custom navbar-fixed-top" role="">
@@ -219,7 +218,6 @@
       </div>
     </div>
   </div>
-
   <div class="container">
     <div class="section">
 
